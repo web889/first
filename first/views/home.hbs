@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form action="/submitfeedback" method="post">
+        <label for="rate">Rate (1-5):</label>
+        <input type="number" id="rate" name="rate" min="1" max="5" placeholder="Rate (1 to 5)" required/>
+        <br/>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" placeholder="Your feedback here" required></textarea>
+        <br/>
+
+        <label for="recommend">Would you recommend us?</label>
+        <select id="recommend" name="recommend" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <br/>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
