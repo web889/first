@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: ["http://deploy-mern-1whq.vercel.app"],
+        origin: ["http://first-two-puce.vercel.app"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     })
@@ -51,7 +51,7 @@ app.get("/home", (req, res) => {
 
 app.get("/api/data", getdata);
 
-app.listen(8000, () => {
+app.listen(http://first-two-puce.vercel.app, () => {
     console.log('Server is live on http://localhost:8000');
 });
 
