@@ -51,7 +51,7 @@ app.get("/home", (req, res) => {
 
 app.get("/api/data", getdata);
 
-app.listen(http://first-two-puce.vercel.app, () => {
+app.listen(8000, () => {
     console.log('Server is live on http://localhost:8000');
 });
 
