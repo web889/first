@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: ["http://localhost:8000","http://192.168.0.105:8000"],
+        origin: ["http://deploy-mern-1whq.vercel.app"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     })
